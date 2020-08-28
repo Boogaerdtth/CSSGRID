@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Website over Vlees </title>
+</head>
+
+<body>
+    <header class="box">
+        <img class="picture" width="300px" src="z-beef.jpg" alt="beef">
+
+        <h1>Mooi Vlees</h1>
+        <img>
+
+
+    </header>
+    <nav class="box">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="black.html">Black Angus</a></li>
+            <li><a href="wagyu.html">Wagyu</a></li>
+            <li><a href="form.html">Nieuwsbrief</a></li>
+
+        </ul>
+        <class> Waar ben je naar op zoek?
+            <input class="searchbar" type="search">
+        </class>
+    </nav>
+
+    <main class="box">
+        <section>
+            <video type="video/mp4" muted loop autoplay preload="auto"
+                src="www.familybeef.eu/wp-content/themes/Impreza-child/video/cowboy-video.mp4" controls>
+                video</video>
+            <h2>Blijf op de hoogte! </h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum repudiandae odio, quidem ad laborum
+                incidunt nemo atque error mollitia eos delectus corporis consectetur molestiae, voluptates explicabo
+                quia non officiis reprehenderit!
+            </p>
+        </section>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label> Naam:</label>
+            </p>
+            <p>
+                <input type="text" name="naam">
+            </p>
+            <p>
+                <label> Wachtwoord:</label>
+            </p>
+            <p>
+                <input type="password" name="wachtwoord">
+            </p>
+            <p>
+                <label> Opmerkingen:</label>
+            </p>
+            <p>
+                <textarea rows="10"></textarea>
+            </p>
+            <p>
+                <button type="submit"> Verzenden </button>
+            </p>
+        </form>
+        <img class="picture" width="300px" src="z-aberdeen.jpeg" alt="aberdeen">
+        <form name="recipe" method="POST" data-netlify="true">
+            <p>
+                <label for="name"> Naam:</label>
+                <br>
+                <input type="text" name="naam" id="name" required>
+            </p>
+            <p>
+                <label for="email"> Email</label>
+                <br>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <label for="telephone"> Telefoonnummer</label>
+                <br>
+                <input type="tel" name="telephone" id="telephone" required>
+            </p>
+            <p>
+                <label for="age"> Leeftijd</label>
+                <br>
+                <input type="text" name="age" id="age" min="10" max="90" step="1">
+            </p>
+            <p>
+                <label for="date"> Geboortedatum</label>
+                <br>
+                <input type="date" name="date" id="date" min="2020-06-10" required>
+            </p>
+            <p>
+                <label> Geslacht</label>
+                <br>
+                <label for="male"> Man </label>
+                <input type="radio" name="gender" id="male">
+                <label for="female"> Vrouw </label>
+                <input type="radio" name="gender" id="female">
+            </p>
+            <p>
+                <label> Favoriete Cuisine </label>
+                <br>
+                <label for="frans"> Frans <input type="checkbox" name="frans" id="frans"> </label>
+                <label for="italiaans"> Italiaans <input type="checkbox" name="italiaans" id="italiaans"> </label>
+                <label for="spaans"> Spaans <input type="checkbox" name="spaans" id="spaans"> </label>
+                <label for="arabisch"> Arabisch <input type="checkbox" name="arabisch" id="arabisch"> </label>
+            </p>
+            <p>
+                <label for="color"> Favoriete kleur schort
+                    <input type="color" name="color" id="color">
+                </label>
+            </p>
+            <p>
+                <label for="textarea"> Biografie</label>
+                <br>
+                <textarea rows="10" name="textarea" id="textarea"></textarea>
+            </p>
+            <p>
+                <label for="file"> Upload je laatste recept </label>
+                <input type="file" name="file" id="file">
+            </p>
+            <p>
+                <label for="url"> Je eigen website </label>
+                <input type="url" name="url" id="url">
+            </p>
+            <input type="hidden" name="hidden" value="hi" />
+            <p>
+                <label for="reset"> Maak dit formulier leeg </label>
+                <input type="reset" name="reset" id="reset">
+
+            </p>
+            <p>
+                <button type="submit"> Verzenden </button>
+            </p>
+
+        </form>
+
+
+
+    </main>
+
+    <footer class="box">
+        copyright Jasper Boogaerdt 't Hooft 2020
+    </footer>
+
+
+</body>
+
+</html>
